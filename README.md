@@ -1,7 +1,7 @@
 # cpprestsdkrun
 Feature test run for cpprestsdk:
 
-1) validate a uri
+1) validate an uri
 2) GET request 
 
 ## Build & Run
