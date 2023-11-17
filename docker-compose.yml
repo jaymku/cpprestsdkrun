@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  cpp-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    #command: bash -c "g++ -o main /app/main.cpp -lboost_system -lcrypto -lssl -lcpprest && ./main"
